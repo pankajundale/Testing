@@ -1,0 +1,115 @@
+<div class="trillo-form" style="width:300px; padding: 10px">
+  <form data-container>
+    <div data-component="readonly" class="form-group">
+      <label data-label></label>
+      <span data-field class="form-control"></span>
+    </div>
+    <div data-component="text" class="form-group">
+      <label data-label></label>
+      <input data-field type="text" class="form-control">
+    </div>
+    <label data-component="checkbox" class="custom-control custom-checkbox">
+      <input data-field type="checkbox" class="custom-control-input">
+      <span class="custom-control-indicator"></span>
+      <span data-label class="custom-control-description"></span>
+    </label>
+    <fieldset data-component="radio">
+      <label data-label></label>
+      <div data-radios-container class="form-check">
+        <label data-radio-container class="custom-control custom-radio">
+          <input data-field type="radio" class="custom-control-input">
+          <span class="custom-control-indicator"></span>
+          <span data-radio-label class="custom-control-description"></span>
+        </label>
+      </div>
+    </fieldset> 
+    
+    <fieldset data-component="radio-stacked">
+      <label data-label></label>
+      <div data-radios-container class="form-check custom-controls-stacked">
+        <label data-radio-container class="custom-control custom-radio">
+          <input data-field type="radio" class="custom-control-input">
+          <span class="custom-control-indicator"></span>
+          <span data-radio-label class="custom-control-description"></span>
+        </label>
+      </div>
+    </fieldset> 
+    <div data-component="select" class="form-group">
+      <label data-label></label>
+      <select data-field class="form-control custom-select">
+        <option>1</option>
+      </select>
+    </div>
+    <div data-component="multi-select" class="form-group">
+      <label data-label></label>
+      <select multiple data-field class="form-control">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+      </select>
+    </div>
+    <div data-component="textarea" class="form-group">
+      <label data-label></label>
+      <textarea data-field class="form-control" rows="2"></textarea>
+    </div>
+    <div data-component="number" class="form-group">
+      <label data-label></label>
+      <input data-field type="number" class="form-control">
+    </div> 
+    <div data-component="email" class="form-group">
+      <label data-label></label>
+      <input data-field type="email" class="form-control">
+    </div>
+    <div data-component="password" class="form-group">
+      <label data-label></label>
+      <input data-field type="password" class="form-control">
+    </div>
+    <div data-component="datetime" class="form-group">
+      <label data-label></label>
+      <input data-field type="text" class="form-control">
+    </div>
+    <div data-component="datetime-local" class="form-group">
+      <label data-label></label>
+      <input data-field type="datetime-local" class="form-control">
+    </div>
+    <div data-component="date" class="form-group">
+      <label data-label></label>
+      <input data-field type="date" class="form-control">
+    </div>
+    <div data-component="month" class="form-group">
+      <label data-label></label>
+      <input data-field type="month" class="form-control">
+    </div>
+    <div data-component="week" class="form-group">
+      <label data-label></label>
+      <input data-field type="week" class="form-control">
+    </div>
+    <div data-component="url" class="form-group">
+      <label data-label></label>
+      <input data-field type="url" class="form-control">
+    </div>
+    <div data-component="tel" class="form-group">
+      <label data-label></label>
+      <input data-field type="tel" class="form-control">
+    </div>
+    <div data-component="search" class="form-group">
+      <label data-label></label>
+      <input data-field type="search" class="form-control">
+    </div>
+    <div data-component="fileInput" class="form-group">
+      <label data-label></label>
+      <input data-field type="file" class="form-control-file">
+    </div>
+    <button data-component="button" type="button" class="btn btn-primary"></button>
+    <button data-component="submit" type="submit" class="btn btn-primary"></button>
+    <button data-component="reset" type="reset" class="btn btn-primary"></button>
+    <div data-container data-component="fieldsRow" data-hidden class="form-inline">
+    </div>
+    <label data-component="field-action" data-hidden class="trillo-field-action">
+      <a href="#" data-action class="js-tool"><i class="trillo-arrow-right"></i></a>
+    </label>
+  </form>
+  <small class="form-control-feedback trillo-display-none js-field-error"></small>
+  <small class="form-text text-muted trillo-display-none js-field-message"></small>
+</div>
+

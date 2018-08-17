@@ -1,0 +1,14 @@
+.light-content-area {
+  background-color: #f2f2f2;
+}
+
+.main-row {
+  flex-wrap: nowrap;
+}
+
+.autocomplete-suggestions { border: 1px solid #999; background: #f2f2f2; overflow: auto; cursor: default}
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #5fc7d2; }
+/* .autocomplete-suggestions strong { font-weight: normal; color: #3399FF; } */
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { display: block; border-bottom: 1px solid #ddd }
